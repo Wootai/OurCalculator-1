@@ -21,6 +21,7 @@ class Button {
     stroke(255);
     text(label, posX + sizeX / 2, posY + sizeY / 2);
   } 
+  
   // Returns true if mouse is pressed and mouse is inside button.
   boolean clicked() {
     return (mouseX > posX && mouseX < posX + sizeX) &&
